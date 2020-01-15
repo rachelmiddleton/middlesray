@@ -1,0 +1,475 @@
+#wrapper {
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+.menu .active > a {
+  background-color: transparent;
+  border-right: 1px solid #8d7986;
+  border-left: 1px solid #8d7986;
+  color: #8d7986; }
+
+/***** Header Section *****/
+#header_logo {
+  width: 180px; }
+
+.header {
+  text-align: center;
+  margin-bottom: 0;
+  border: none; }
+
+div#name {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0.6em; }
+
+#develop {
+  font-family: 'Pompiere', cursive; }
+
+#graphic {
+  font-family: 'Mountains of Christmas', cursive;
+  color: #8d7986;
+  font-weight: bold;
+  letter-spacing: 3px; }
+
+/***** Navigation Styles *****/
+.top-bar, .top-bar ul {
+  background: none; }
+
+#top-menu ul a {
+  color: dimgrey;
+  font-family: "Stylish", sans-serif;
+  text-transform: uppercase; }
+
+#top-menu ul li:hover {
+  border-right: 1px solid #8d7986;
+  border-left: 1px solid #8d7986; }
+  #top-menu ul li:hover a:hover {
+    color: #8d7986; }
+
+.title-bar {
+  background: grey; }
+
+/***** Section Section Styles *****/
+#second_section {
+  background-image: url(/images/background/levi.png);
+  height: 430px; }
+
+.awe-icon {
+  text-align: center;
+  color: whitesmoke; }
+
+#icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; }
+  #icon-box .icon-title {
+    color: whitesmoke;
+    margin: 1em 0 1em 0;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: bold; }
+
+/***** Footer Styles *****/
+.footer-header {
+  font-family: "Pompiere", cursive;
+  color: #544252;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+footer .callout {
+  border: none; }
+
+.footer {
+  margin-bottom: 0;
+  padding: 2em; }
+
+img.thumbnail.footer-image:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+.box {
+  position: relative;
+  overflow: hidden; }
+  .box img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+
+img.thumbnail.footer-image {
+  width: 80%; }
+
+/***** Social Media Styles *****/
+.social-icon-button {
+  border-radius: 3.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  background: none; }
+  .social-icon-button + .social-icon-button {
+    margin-left: 0.3rem; }
+  .social-icon-button .fab {
+    background: none;
+    z-index: 1;
+    line-height: 3.5rem;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .social-icon-button span {
+    display: block;
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out; }
+  .social-icon-button:hover .fa {
+    color: #fefefe; }
+  .social-icon-button:hover span {
+    display: block;
+    border-radius: 3.5rem;
+    width: 3.5rem;
+    height: 3.5rem; }
+  .social-icon-button.link {
+    color: #0077B5; }
+    .social-icon-button.link span {
+      background-color: #0077B5; }
+  .social-icon-button.insta {
+    color: #fccc63; }
+    .social-icon-button.insta span {
+      background-color: #fccc63; }
+  .social-icon-button.twitter {
+    color: #55acee; }
+    .social-icon-button.twitter span {
+      background-color: #55acee; }
+  .social-icon-button.facebook {
+    color: #3b5998; }
+    .social-icon-button.facebook span {
+      background-color: #3b5998; }
+
+a.social-icon-button.twitter:hover,
+a.social-icon-button.link:hover,
+a.social-icon-button.insta:hover,
+a.social-icon-button.facebook:hover {
+  color: white; }
+
+/***** Media Styles *****/
+@media only screen and (max-width: 1023px) {
+  div#name {
+    text-align: center;
+    display: block; }
+  #about-section {
+    height: 100% !important; } }
+
+@media only screen and (max-width: 600px) {
+  #top-menu {
+    background: #43393f;
+    text-align: center; }
+    #top-menu li:hover {
+      background: #8d7986; }
+  #top-menu ul a {
+    color: whitesmoke !important; }
+  #second_section {
+    padding: 1em 0 1em 0; }
+  #form {
+    width: 100%; } }
+
+/***** About Page *****/
+.about-pad {
+  padding: 3em 1em 2em 1em; }
+
+#write-about, #write-about h4 {
+  color: whitesmoke;
+  font-family: "Stylish", sans-serif;
+  text-align: left; }
+
+#rose-div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#about-section {
+  background-image: url(/images/background/levi.png);
+  height: 430px; }
+
+#dev_section {
+  background-image: url(/images/background/levi.png); }
+
+/***** end About Page *****/
+/***** Development Page *****/
+#exper {
+  color: whitesmoke;
+  font-family: "Pompiere", cursive;
+  text-align: left;
+  background: transparent;
+  font-size: 20px;
+  padding: 2em; }
+
+.list {
+  list-style: square; }
+
+div#exper.callout {
+  border: none; }
+
+#dev-title {
+  color: whitesmoke;
+  text-align: center;
+  padding: 1em 0 0 0; }
+
+#graph-image {
+  margin-top: 2em; }
+
+/***** end Development Page *****/
+/***** Graphic Page *****/
+#graphic_section {
+  padding: 1em;
+  background-image: url(/images/background/levi.png); }
+
+.gra-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px; }
+
+.gra-col {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px; }
+  .gra-col img {
+    margin-top: 8px;
+    vertical-align: middle; }
+
+@media screen and (max-width: 800px) {
+  .gra-col {
+    flex: 50%;
+    max-width: 50%; } }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gra-col {
+    flex: 100%;
+    max-width: 100%; } }
+
+/***** end Graphic Page *****/
+/***** Photography Page *****/
+#photo_section {
+  background-image: url(/images/background/pw_maze_black.png); }
+
+.carousel > input[type="radio"]:nth-child(1):checked ~ .carousel_prev > label:nth-child(12), .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel_next > label:nth-child(2), .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel_prev > label:nth-child(1), .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel_next > label:nth-child(3), .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel_prev > label:nth-child(2), .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel_next > label:nth-child(4), .carousel > input[type="radio"]:nth-child(4):checked ~ .carousel_prev > label:nth-child(3), .carousel > input[type="radio"]:nth-child(4):checked ~ .carousel_next > label:nth-child(5), .carousel > input[type="radio"]:nth-child(5):checked ~ .carousel_prev > label:nth-child(4), .carousel > input[type="radio"]:nth-child(5):checked ~ .carousel_next > label:nth-child(6), .carousel > input[type="radio"]:nth-child(6):checked ~ .carousel_prev > label:nth-child(5), .carousel > input[type="radio"]:nth-child(6):checked ~ .carousel_next > label:nth-child(7), .carousel > input[type="radio"]:nth-child(7):checked ~ .carousel_prev > label:nth-child(6), .carousel > input[type="radio"]:nth-child(7):checked ~ .carousel_next > label:nth-child(8), .carousel > input[type="radio"]:nth-child(8):checked ~ .carousel_prev > label:nth-child(7), .carousel > input[type="radio"]:nth-child(8):checked ~ .carousel_next > label:nth-child(9), .carousel > input[type="radio"]:nth-child(9):checked ~ .carousel_prev > label:nth-child(8), .carousel > input[type="radio"]:nth-child(9):checked ~ .carousel_next > label:nth-child(10), .carousel > input[type="radio"]:nth-child(10):checked ~ .carousel_prev > label:nth-child(9), .carousel > input[type="radio"]:nth-child(10):checked ~ .carousel_next > label:nth-child(11), .carousel > input[type="radio"]:nth-child(11):checked ~ .carousel_prev > label:nth-child(10), .carousel > input[type="radio"]:nth-child(11):checked ~ .carousel_next > label:nth-child(12), .carousel > input[type="radio"]:nth-child(12):checked ~ .carousel_prev > label:nth-child(11), .carousel > input[type="radio"]:nth-child(12):checked ~ .carousel_next > label:nth-child(1) {
+  opacity: 1 !important;
+  z-index: 3; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+.photo-container {
+  width: 900px;
+  min-width: 900px;
+  margin: 50px auto; }
+
+.carousel {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .carousel > input[type="radio"] {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 0; }
+    .carousel > input[type="radio"]:checked ~ .carousel_items .carousel_item,
+    .carousel > input[type="radio"]:checked ~ .carousel_prev > label,
+    .carousel > input[type="radio"]:checked ~ .carousel_next > label {
+      opacity: 0; }
+    .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel_items .carousel_item:nth-child(1) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel_nav > label:nth-child(1) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel_items .carousel_item:nth-child(2) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel_nav > label:nth-child(2) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel_items .carousel_item:nth-child(3) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel_nav > label:nth-child(3) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(4):checked ~ .carousel_items .carousel_item:nth-child(4) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(4):checked ~ .carousel_nav > label:nth-child(4) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(5):checked ~ .carousel_items .carousel_item:nth-child(5) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(5):checked ~ .carousel_nav > label:nth-child(5) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(6):checked ~ .carousel_items .carousel_item:nth-child(6) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(6):checked ~ .carousel_nav > label:nth-child(6) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(7):checked ~ .carousel_items .carousel_item:nth-child(7) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(7):checked ~ .carousel_nav > label:nth-child(7) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(8):checked ~ .carousel_items .carousel_item:nth-child(8) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(8):checked ~ .carousel_nav > label:nth-child(8) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(9):checked ~ .carousel_items .carousel_item:nth-child(9) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(9):checked ~ .carousel_nav > label:nth-child(9) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(10):checked ~ .carousel_items .carousel_item:nth-child(10) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(10):checked ~ .carousel_nav > label:nth-child(10) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(11):checked ~ .carousel_items .carousel_item:nth-child(11) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(11):checked ~ .carousel_nav > label:nth-child(11) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+    .carousel > input[type="radio"]:nth-child(12):checked ~ .carousel_items .carousel_item:nth-child(12) {
+      opacity: 1; }
+    .carousel > input[type="radio"]:nth-child(12):checked ~ .carousel_nav > label:nth-child(12) {
+      background: #ccc;
+      cursor: default;
+      pointer-events: none; }
+  .carousel_items {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 600px;
+    position: relative; }
+  .carousel_item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s; }
+    .carousel_item img {
+      width: 100%;
+      vertical-align: middle; }
+  .carousel_prev > label, .carousel_next > label {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    opacity: 0;
+    z-index: 2; }
+    .carousel_prev > label:hover, .carousel_prev > label:focus, .carousel_next > label:hover, .carousel_next > label:focus {
+      opacity: .5 !important; }
+    .carousel_prev > label:before, .carousel_prev > label:after, .carousel_next > label:before, .carousel_next > label:after {
+      content: "";
+      position: absolute;
+      width: inherit;
+      height: inherit; }
+    .carousel_prev > label:before, .carousel_next > label:before {
+      background: linear-gradient(to top, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%), linear-gradient(to left, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
+      width: 60%;
+      height: 60%;
+      top: 20%; }
+  .carousel_prev > label {
+    left: 2%; }
+    .carousel_prev > label:before {
+      left: 35%;
+      top: 20%;
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg); }
+  .carousel_next > label {
+    right: 2%; }
+    .carousel_next > label:before {
+      left: 10%;
+      transform: rotate(315deg);
+      -webkit-transform: rotate(315deg); }
+  .carousel_nav {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 3; }
+    .carousel_nav > label {
+      border: 1px solid #fff;
+      display: inline-block;
+      border-radius: 50%;
+      cursor: pointer;
+      margin: 0 .125%;
+      width: 20px;
+      height: 20px; }
+
+/***** end Photography Page *****/
+/***** Resume Page *****/
+#resume_section {
+  background-image: url(/images/background/levi.png); }
+  #resume_section a {
+    color: whitesmoke;
+    font-weight: bold; }
+
+#write-about > #exper > .list > li {
+  padding: 0.5em; }
+
+#resume {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+/***** end Resume Page *****/
+/***** Contact Page *****/
+.header-contact {
+  font-family: "Julius Sans One", sans-serif;
+  color: whitesmoke; }
+
+#form {
+  padding: 3em; }
+
+/***** end Contact Page *****/
